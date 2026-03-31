@@ -1,0 +1,81 @@
+
+/* Фото я зробив по 2(бо у мене по 4 картинки в галереї, щоб було симетрично) */
+
+body {
+    font-family: 'Times New Roman', Times, sans-serif;
+    background-color: #faf6f0;
+    color: #333;
+    line-height: 1.6;
+    place-items: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin-top: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+ol {
+    margin: 10px 0 15px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    grid-column: 1;
+    justify-self: start;   
+    align-self: start;      
+    margin-top: 20px;
+}
+
+a {
+    color: #0077cc;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+}
+
